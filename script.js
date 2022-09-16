@@ -19,7 +19,7 @@ $(document).ready(function () {
       }, 5000);
     });
   
-    function hourUpdater() {
+    function updateHour() {
       
       var currentHour = moment().hours();
   
@@ -41,7 +41,7 @@ $(document).ready(function () {
       });
     }
   
-    hourUpdater();
+    updateHour();
   
     
     var interval = setInterval(hourUpdater, 15000);
